@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://changsheng-wang.github.io/changsheng-wang/feed.xml" rel="self" type="application/atom+xml" /><link href="https://changsheng-wang.github.io/changsheng-wang/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-07-12T07:57:15+00:00</updated><id>https://changsheng-wang.github.io/changsheng-wang/feed.xml</id><title type="html">Yihua Zhang</title><subtitle>Don&apos;t waste your life. Don&apos;t waste it.
-</subtitle><entry><title type="html">[NeurIPS22] Advancing Model Pruning via Bi-level Optimization</title><link href="https://changsheng-wang.github.io/changsheng-wang/blog/2022/bip-neurips22/" rel="alternate" type="text/html" title="[NeurIPS22] Advancing Model Pruning via Bi-level Optimization" /><published>2022-11-26T21:00:00+00:00</published><updated>2022-11-26T21:00:00+00:00</updated><id>https://changsheng-wang.github.io/changsheng-wang/blog/2022/bip-neurips22</id><content type="html" xml:base="https://changsheng-wang.github.io/changsheng-wang/blog/2022/bip-neurips22/"><![CDATA[<h4 id="dilemma-in-model-pruning-effective-or-efficient">Dilemma in Model Pruning: Effective or Efficient?</h4>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://changshengwang.me/feed.xml" rel="self" type="application/atom+xml" /><link href="https://changshengwang.me/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-07-12T08:25:45+00:00</updated><id>https://changshengwang.me/feed.xml</id><title type="html">Yihua Zhang</title><subtitle>Don&apos;t waste your life. Don&apos;t waste it.
+</subtitle><entry><title type="html">[NeurIPS22] Advancing Model Pruning via Bi-level Optimization</title><link href="https://changshengwang.me/blog/2022/bip-neurips22/" rel="alternate" type="text/html" title="[NeurIPS22] Advancing Model Pruning via Bi-level Optimization" /><published>2022-11-26T21:00:00+00:00</published><updated>2022-11-26T21:00:00+00:00</updated><id>https://changshengwang.me/blog/2022/bip-neurips22</id><content type="html" xml:base="https://changshengwang.me/blog/2022/bip-neurips22/"><![CDATA[<h4 id="dilemma-in-model-pruning-effective-or-efficient">Dilemma in Model Pruning: Effective or Efficient?</h4>
 
 <p>Among the many powerful pruning methods, Iterative Magnitude Pruning (IMP) is one of the most significant and popular methods, which prunes the model in an iterative manner and can reach an extremely sparse level without any performance loss. However, it often consumes much more than training a dense model from scratch. In contrast, efficient one-shot pruning methods can not deliver a high-quality sparse subnetwork, as shown in Figure 1.
 Therefore, existing pruning methods have reached a dilemma over choosing between the effective method and the efficient method.</p>
@@ -10,13 +10,13 @@ Therefore, existing pruning methods have reached a dilemma over choosing between
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/changsheng-wang/assets/img/posts/bip_nips22/dilemma-480.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/changsheng-wang/assets/img/posts/bip_nips22/dilemma-800.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/changsheng-wang/assets/img/posts/bip_nips22/dilemma-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/posts/bip_nips22/dilemma-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/posts/bip_nips22/dilemma-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/posts/bip_nips22/dilemma-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img src="/changsheng-wang/assets/img/posts/bip_nips22/dilemma.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Dilemma in Pruning" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/posts/bip_nips22/dilemma.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Dilemma in Pruning" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -84,13 +84,13 @@ How to advance the optimization foundation of model pruning to achieve high accu
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/changsheng-wang/assets/img/posts/bip_nips22/algorithm-480.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/changsheng-wang/assets/img/posts/bip_nips22/algorithm-800.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/changsheng-wang/assets/img/posts/bip_nips22/algorithm-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/posts/bip_nips22/algorithm-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/posts/bip_nips22/algorithm-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/posts/bip_nips22/algorithm-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img src="/changsheng-wang/assets/img/posts/bip_nips22/algorithm.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="BiP algorithm overview" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/posts/bip_nips22/algorithm.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="BiP algorithm overview" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -113,13 +113,13 @@ For the upper level, as the mask is supposed to contain either 0 or 1, represent
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/changsheng-wang/assets/img/posts/bip_nips22/bip_overview-480.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/changsheng-wang/assets/img/posts/bip_nips22/bip_overview-800.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/changsheng-wang/assets/img/posts/bip_nips22/bip_overview-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/posts/bip_nips22/bip_overview-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/posts/bip_nips22/bip_overview-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/posts/bip_nips22/bip_overview-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img src="/changsheng-wang/assets/img/posts/bip_nips22/bip_overview.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="BiP algorithm visualization" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/posts/bip_nips22/bip_overview.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="BiP algorithm visualization" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -141,13 +141,13 @@ For the upper level, as the mask is supposed to contain either 0 or 1, represent
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/changsheng-wang/assets/img/posts/bip_nips22/imp-480.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/changsheng-wang/assets/img/posts/bip_nips22/imp-800.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/changsheng-wang/assets/img/posts/bip_nips22/imp-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/posts/bip_nips22/imp-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/posts/bip_nips22/imp-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/posts/bip_nips22/imp-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img src="/changsheng-wang/assets/img/posts/bip_nips22/imp.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="BiP algorithm overview" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/posts/bip_nips22/imp.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="BiP algorithm overview" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -165,13 +165,13 @@ For the upper level, as the mask is supposed to contain either 0 or 1, represent
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/changsheng-wang/assets/img/posts/bip_nips22/omp-480.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/changsheng-wang/assets/img/posts/bip_nips22/omp-800.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/changsheng-wang/assets/img/posts/bip_nips22/omp-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/posts/bip_nips22/omp-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/posts/bip_nips22/omp-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/posts/bip_nips22/omp-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img src="/changsheng-wang/assets/img/posts/bip_nips22/omp.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="BiP algorithm overview" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/posts/bip_nips22/omp.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="BiP algorithm overview" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -197,13 +197,13 @@ For the upper level, as the mask is supposed to contain either 0 or 1, represent
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/changsheng-wang/assets/img/posts/bip_nips22/exp_unstructured_pruning-480.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/changsheng-wang/assets/img/posts/bip_nips22/exp_unstructured_pruning-800.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/changsheng-wang/assets/img/posts/bip_nips22/exp_unstructured_pruning-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/posts/bip_nips22/exp_unstructured_pruning-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/posts/bip_nips22/exp_unstructured_pruning-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/posts/bip_nips22/exp_unstructured_pruning-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img src="/changsheng-wang/assets/img/posts/bip_nips22/exp_unstructured_pruning.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Unstructured pruning result." data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/posts/bip_nips22/exp_unstructured_pruning.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Unstructured pruning result." data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -225,13 +225,13 @@ For the upper level, as the mask is supposed to contain either 0 or 1, represent
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/changsheng-wang/assets/img/posts/bip_nips22/exp_structured_pruning-480.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/changsheng-wang/assets/img/posts/bip_nips22/exp_structured_pruning-800.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/changsheng-wang/assets/img/posts/bip_nips22/exp_structured_pruning-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/posts/bip_nips22/exp_structured_pruning-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/posts/bip_nips22/exp_structured_pruning-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/posts/bip_nips22/exp_structured_pruning-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img src="/changsheng-wang/assets/img/posts/bip_nips22/exp_structured_pruning.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Structured pruning result." data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/posts/bip_nips22/exp_structured_pruning.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Structured pruning result." data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -253,13 +253,13 @@ For the upper level, as the mask is supposed to contain either 0 or 1, represent
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/changsheng-wang/assets/img/posts/bip_nips22/exp_time-480.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/changsheng-wang/assets/img/posts/bip_nips22/exp_time-800.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/changsheng-wang/assets/img/posts/bip_nips22/exp_time-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/posts/bip_nips22/exp_time-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/posts/bip_nips22/exp_time-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/posts/bip_nips22/exp_time-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img src="/changsheng-wang/assets/img/posts/bip_nips22/exp_time.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Structured pruning result." data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/posts/bip_nips22/exp_time.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Structured pruning result." data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -282,13 +282,13 @@ find matching subnetworks. Recall that rewinding is a strategy used in Lottery T
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/changsheng-wang/assets/img/posts/bip_nips22/no_rewinding-480.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/changsheng-wang/assets/img/posts/bip_nips22/no_rewinding-800.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/changsheng-wang/assets/img/posts/bip_nips22/no_rewinding-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/posts/bip_nips22/no_rewinding-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/posts/bip_nips22/no_rewinding-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/posts/bip_nips22/no_rewinding-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img src="/changsheng-wang/assets/img/posts/bip_nips22/no_rewinding.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="BiP requires no rewinding." data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/posts/bip_nips22/no_rewinding.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="BiP requires no rewinding." data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -325,7 +325,7 @@ find matching subnetworks. Recall that rewinding is a strategy used in Lottery T
 <p>[1] Xiaolong Ma et al. “Sanity Checks for Lottery Tickets: Does Your Winning Ticket Really Win the Jackpot?” NeurIPS 2021.</p>
 
 <div id="refer-anchor-2"></div>
-<p>[2] Jonathan Frankle et al. “The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks.” ICLR 2019.</p>]]></content><author><name>&lt;a style=&apos;color: #dfebf7&apos; href=&apos;https://www.yihua-zhang.com/&apos;&gt;Yihua Zhang&lt;/a&gt;&lt;sup&gt;[1]&lt;/sup&gt;*, &lt;a style=&apos;color: #dfebf7&apos; href=&apos;https://www.cse.msu.edu/~yaoyugua/&apos;&gt;Yuguang Yao&lt;/a&gt;&lt;sup&gt;[1]&lt;/sup&gt;*, &lt;a style=&apos;color: #dfebf7&apos; href=&apos;https://rithram.github.io/&apos;&gt;Parikshit Ram&lt;/a&gt;&lt;sup&gt;[2]&lt;/sup&gt;, &lt;a style=&apos;color: #dfebf7&apos; href=&apos;https://puzhao.info/&apos;&gt;Zhao Pu&lt;/a&gt;&lt;sup&gt;[3]&lt;/sup&gt;, &lt;a style=&apos;color: #dfebf7&apos; href=&apos;https://tianlong-chen.github.io/about/&apos;&gt;Tianlong Chen&lt;/a&gt;&lt;sup&gt;[4]&lt;/sup&gt;, &lt;a style=&apos;color: #dfebf7&apos; href=&apos;https://people.ece.umn.edu/~mhong/mingyi.html&apos;&gt;Mingyi Hong&lt;/a&gt;&lt;sup&gt;[5]&lt;/sup&gt;, &lt;a style=&apos;color: #dfebf7&apos; href=&apos;https://web.northeastern.edu/yanzhiwang/&apos;&gt;Yanzhi Wang&lt;/a&gt;&lt;sup&gt;[3]&lt;/sup&gt;, &lt;a style=&apos;color: #dfebf7&apos; href=&apos;https://lsjxjtu.github.io/&apos;&gt;Sijia Liu&lt;/a&gt;&lt;sup&gt;[1,2]&lt;/sup&gt;</name></author><category term="neurips22" /><category term="ScalableML" /><summary type="html"><![CDATA[Dilemma in Model Pruning: Effective or Efficient?]]></summary></entry><entry><title type="html">[NeurIPS22] Fairness Reprogramming</title><link href="https://changsheng-wang.github.io/changsheng-wang/blog/2022/fairness-reprogramming-neurips22/" rel="alternate" type="text/html" title="[NeurIPS22] Fairness Reprogramming" /><published>2022-11-26T21:00:00+00:00</published><updated>2022-11-26T21:00:00+00:00</updated><id>https://changsheng-wang.github.io/changsheng-wang/blog/2022/fairness-reprogramming-neurips22</id><content type="html" xml:base="https://changsheng-wang.github.io/changsheng-wang/blog/2022/fairness-reprogramming-neurips22/"><![CDATA[<h3 id="overview">Overview</h3>
+<p>[2] Jonathan Frankle et al. “The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks.” ICLR 2019.</p>]]></content><author><name>&lt;a style=&apos;color: #dfebf7&apos; href=&apos;https://www.yihua-zhang.com/&apos;&gt;Yihua Zhang&lt;/a&gt;&lt;sup&gt;[1]&lt;/sup&gt;*, &lt;a style=&apos;color: #dfebf7&apos; href=&apos;https://www.cse.msu.edu/~yaoyugua/&apos;&gt;Yuguang Yao&lt;/a&gt;&lt;sup&gt;[1]&lt;/sup&gt;*, &lt;a style=&apos;color: #dfebf7&apos; href=&apos;https://rithram.github.io/&apos;&gt;Parikshit Ram&lt;/a&gt;&lt;sup&gt;[2]&lt;/sup&gt;, &lt;a style=&apos;color: #dfebf7&apos; href=&apos;https://puzhao.info/&apos;&gt;Zhao Pu&lt;/a&gt;&lt;sup&gt;[3]&lt;/sup&gt;, &lt;a style=&apos;color: #dfebf7&apos; href=&apos;https://tianlong-chen.github.io/about/&apos;&gt;Tianlong Chen&lt;/a&gt;&lt;sup&gt;[4]&lt;/sup&gt;, &lt;a style=&apos;color: #dfebf7&apos; href=&apos;https://people.ece.umn.edu/~mhong/mingyi.html&apos;&gt;Mingyi Hong&lt;/a&gt;&lt;sup&gt;[5]&lt;/sup&gt;, &lt;a style=&apos;color: #dfebf7&apos; href=&apos;https://web.northeastern.edu/yanzhiwang/&apos;&gt;Yanzhi Wang&lt;/a&gt;&lt;sup&gt;[3]&lt;/sup&gt;, &lt;a style=&apos;color: #dfebf7&apos; href=&apos;https://lsjxjtu.github.io/&apos;&gt;Sijia Liu&lt;/a&gt;&lt;sup&gt;[1,2]&lt;/sup&gt;</name></author><category term="neurips22" /><category term="ScalableML" /><summary type="html"><![CDATA[Dilemma in Model Pruning: Effective or Efficient?]]></summary></entry><entry><title type="html">[NeurIPS22] Fairness Reprogramming</title><link href="https://changshengwang.me/blog/2022/fairness-reprogramming-neurips22/" rel="alternate" type="text/html" title="[NeurIPS22] Fairness Reprogramming" /><published>2022-11-26T21:00:00+00:00</published><updated>2022-11-26T21:00:00+00:00</updated><id>https://changshengwang.me/blog/2022/fairness-reprogramming-neurips22</id><content type="html" xml:base="https://changshengwang.me/blog/2022/fairness-reprogramming-neurips22/"><![CDATA[<h3 id="overview">Overview</h3>
 
 <p>In this paper, we propose a new generic fairness learning paradigm,
 called fairness reprogramming:</p>
@@ -336,13 +336,13 @@ called fairness reprogramming:</p>
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/changsheng-wang/assets/img/posts/fairness_nips22/overview-480.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/changsheng-wang/assets/img/posts/fairness_nips22/overview-800.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/changsheng-wang/assets/img/posts/fairness_nips22/overview-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/posts/fairness_nips22/overview-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/posts/fairness_nips22/overview-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/posts/fairness_nips22/overview-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img src="/changsheng-wang/assets/img/posts/fairness_nips22/overview.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Dilemma in Pruning" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/posts/fairness_nips22/overview.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Dilemma in Pruning" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -418,13 +418,13 @@ correlated with \(Y\). There is a pre-trained classifier, \(f^*(\cdot)\) that pr
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/changsheng-wang/assets/img/posts/fairness_nips22/algorithm-480.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/changsheng-wang/assets/img/posts/fairness_nips22/algorithm-800.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/changsheng-wang/assets/img/posts/fairness_nips22/algorithm-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/posts/fairness_nips22/algorithm-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/posts/fairness_nips22/algorithm-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/posts/fairness_nips22/algorithm-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img src="/changsheng-wang/assets/img/posts/fairness_nips22/algorithm.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Algorithm." data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/posts/fairness_nips22/algorithm.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Algorithm." data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -457,13 +457,13 @@ attribute annotations. We adopt the hair color prediction task in our experiment
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/changsheng-wang/assets/img/posts/fairness_nips22/main_results-480.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/changsheng-wang/assets/img/posts/fairness_nips22/main_results-800.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/changsheng-wang/assets/img/posts/fairness_nips22/main_results-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/posts/fairness_nips22/main_results-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/posts/fairness_nips22/main_results-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/posts/fairness_nips22/main_results-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img src="/changsheng-wang/assets/img/posts/fairness_nips22/main_results.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Main results." data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/posts/fairness_nips22/main_results.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Main results." data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -481,13 +481,13 @@ attribute annotations. We adopt the hair color prediction task in our experiment
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/changsheng-wang/assets/img/posts/fairness_nips22/tuning_ratio-480.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/changsheng-wang/assets/img/posts/fairness_nips22/tuning_ratio-800.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/changsheng-wang/assets/img/posts/fairness_nips22/tuning_ratio-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/posts/fairness_nips22/tuning_ratio-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/posts/fairness_nips22/tuning_ratio-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/posts/fairness_nips22/tuning_ratio-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img src="/changsheng-wang/assets/img/posts/fairness_nips22/tuning_ratio.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Tuning ratio." data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/posts/fairness_nips22/tuning_ratio.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Tuning ratio." data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -505,13 +505,13 @@ attribute annotations. We adopt the hair color prediction task in our experiment
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/changsheng-wang/assets/img/posts/fairness_nips22/transfer-480.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/changsheng-wang/assets/img/posts/fairness_nips22/transfer-800.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/changsheng-wang/assets/img/posts/fairness_nips22/transfer-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/posts/fairness_nips22/transfer-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/posts/fairness_nips22/transfer-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/posts/fairness_nips22/transfer-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img src="/changsheng-wang/assets/img/posts/fairness_nips22/transfer.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Transfer setting." data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/posts/fairness_nips22/transfer.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Transfer setting." data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -529,13 +529,13 @@ attribute annotations. We adopt the hair color prediction task in our experiment
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/changsheng-wang/assets/img/posts/fairness_nips22/multi_class-480.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/changsheng-wang/assets/img/posts/fairness_nips22/multi_class-800.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/changsheng-wang/assets/img/posts/fairness_nips22/multi_class-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/posts/fairness_nips22/multi_class-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/posts/fairness_nips22/multi_class-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/posts/fairness_nips22/multi_class-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img src="/changsheng-wang/assets/img/posts/fairness_nips22/multi_class.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Multi-class setting." data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/posts/fairness_nips22/multi_class.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Multi-class setting." data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -559,13 +559,13 @@ attribute annotations. We adopt the hair color prediction task in our experiment
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/changsheng-wang/assets/img/posts/fairness_nips22/why_works-480.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/changsheng-wang/assets/img/posts/fairness_nips22/why_works-800.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/changsheng-wang/assets/img/posts/fairness_nips22/why_works-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/posts/fairness_nips22/why_works-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/posts/fairness_nips22/why_works-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/posts/fairness_nips22/why_works-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img src="/changsheng-wang/assets/img/posts/fairness_nips22/why_works.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Trigger demographic information." data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/posts/fairness_nips22/why_works.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Trigger demographic information." data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -591,13 +591,13 @@ that contribute most to the text toxicity classification. For the CV application
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/changsheng-wang/assets/img/posts/fairness_nips22/gradcam-480.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/changsheng-wang/assets/img/posts/fairness_nips22/gradcam-800.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/changsheng-wang/assets/img/posts/fairness_nips22/gradcam-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/posts/fairness_nips22/gradcam-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/posts/fairness_nips22/gradcam-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/posts/fairness_nips22/gradcam-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img src="/changsheng-wang/assets/img/posts/fairness_nips22/gradcam.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Grad Cam." data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/posts/fairness_nips22/gradcam.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Grad Cam." data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -617,13 +617,13 @@ that contribute most to the text toxicity classification. For the CV application
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/changsheng-wang/assets/img/posts/fairness_nips22/integrated_grad-480.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/changsheng-wang/assets/img/posts/fairness_nips22/integrated_grad-800.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/changsheng-wang/assets/img/posts/fairness_nips22/integrated_grad-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/posts/fairness_nips22/integrated_grad-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/posts/fairness_nips22/integrated_grad-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/posts/fairness_nips22/integrated_grad-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img src="/changsheng-wang/assets/img/posts/fairness_nips22/integrated_grad.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Integrated Gradient." data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/posts/fairness_nips22/integrated_grad.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Integrated Gradient." data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -643,13 +643,13 @@ that contribute most to the text toxicity classification. For the CV application
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/changsheng-wang/assets/img/posts/fairness_nips22/demographic_info_trigger-480.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/changsheng-wang/assets/img/posts/fairness_nips22/demographic_info_trigger-800.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/changsheng-wang/assets/img/posts/fairness_nips22/demographic_info_trigger-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/posts/fairness_nips22/demographic_info_trigger-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/posts/fairness_nips22/demographic_info_trigger-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/posts/fairness_nips22/demographic_info_trigger-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img src="/changsheng-wang/assets/img/posts/fairness_nips22/demographic_info_trigger.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Trigger demographic information." data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/posts/fairness_nips22/demographic_info_trigger.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Trigger demographic information." data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -689,7 +689,7 @@ that contribute most to the text toxicity classification. For the CV application
 <p>[2] Mukund Sundararajan et al. “Axiomatic attribution for deep networks” ArXiv, vol. abs/1703.01365, 2017.</p>
 
 <div id="refer-anchor-3"></div>
-<p>[3] Narine Kokhlikyan et al. “Captum: A unified and generic model interpretability library for PyTorch” arXiv preprint arXiv:2009.07896.</p>]]></content><author><name>&lt;a style=&apos;color: #dfebf7&apos; href=&apos;https://ghzhang233.github.io/&apos;&gt;Guanhua Zhang&lt;/a&gt;&lt;sup&gt;[1]&lt;/sup&gt;*, &lt;a style=&apos;color: #dfebf7&apos; href=&apos;https://www.yihua-zhang.com/&apos;&gt;Yihua Zhang&lt;/a&gt;&lt;sup&gt;[2]&lt;/sup&gt;*, &lt;a style=&apos;color: #dfebf7&apos; href=&apos;https://https://scholar.google.com/citations?hl=zh-CN&amp;user=_-5PSgQAAAAJ/&apos;&gt;Yang Zhang&lt;/a&gt;&lt;sup&gt;[3]&lt;/sup&gt;, &lt;a style=&apos;color: #dfebf7&apos; href=&apos;https://wenqifan03.github.io/&apos;&gt;Wenqi Fan&lt;/a&gt;&lt;sup&gt;[4]&lt;/sup&gt;, &lt;a style=&apos;color: #dfebf7&apos; href=&apos;https://scholar.google.com/citations?hl=zh-CN&amp;user=XRB2rKIAAAAJ&apos;&gt;Qing Li&lt;/a&gt;&lt;sup&gt;[4]&lt;/sup&gt;, &lt;a style=&apos;color: #dfebf7&apos; href=&apos;https://lsjxjtu.github.io/&apos;&gt;Sijia Liu&lt;/a&gt;&lt;sup&gt;[2,4]&lt;/sup&gt;</name></author><category term="neurips22" /><category term="TrustworthyML" /><summary type="html"><![CDATA[Overview]]></summary></entry><entry><title type="html">[CVPR22] Quarantine: Sparsity Can Uncover the Trojan Attack Trigger for Free</title><link href="https://changsheng-wang.github.io/changsheng-wang/blog/2022/trojan-lth-cvpr22/" rel="alternate" type="text/html" title="[CVPR22] Quarantine: Sparsity Can Uncover the Trojan Attack Trigger for Free" /><published>2022-06-21T21:00:00+00:00</published><updated>2022-06-21T21:00:00+00:00</updated><id>https://changsheng-wang.github.io/changsheng-wang/blog/2022/trojan-lth-cvpr22</id><content type="html" xml:base="https://changsheng-wang.github.io/changsheng-wang/blog/2022/trojan-lth-cvpr22/"><![CDATA[<h4 id="motivation">Motivation</h4>
+<p>[3] Narine Kokhlikyan et al. “Captum: A unified and generic model interpretability library for PyTorch” arXiv preprint arXiv:2009.07896.</p>]]></content><author><name>&lt;a style=&apos;color: #dfebf7&apos; href=&apos;https://ghzhang233.github.io/&apos;&gt;Guanhua Zhang&lt;/a&gt;&lt;sup&gt;[1]&lt;/sup&gt;*, &lt;a style=&apos;color: #dfebf7&apos; href=&apos;https://www.yihua-zhang.com/&apos;&gt;Yihua Zhang&lt;/a&gt;&lt;sup&gt;[2]&lt;/sup&gt;*, &lt;a style=&apos;color: #dfebf7&apos; href=&apos;https://https://scholar.google.com/citations?hl=zh-CN&amp;user=_-5PSgQAAAAJ/&apos;&gt;Yang Zhang&lt;/a&gt;&lt;sup&gt;[3]&lt;/sup&gt;, &lt;a style=&apos;color: #dfebf7&apos; href=&apos;https://wenqifan03.github.io/&apos;&gt;Wenqi Fan&lt;/a&gt;&lt;sup&gt;[4]&lt;/sup&gt;, &lt;a style=&apos;color: #dfebf7&apos; href=&apos;https://scholar.google.com/citations?hl=zh-CN&amp;user=XRB2rKIAAAAJ&apos;&gt;Qing Li&lt;/a&gt;&lt;sup&gt;[4]&lt;/sup&gt;, &lt;a style=&apos;color: #dfebf7&apos; href=&apos;https://lsjxjtu.github.io/&apos;&gt;Sijia Liu&lt;/a&gt;&lt;sup&gt;[2,4]&lt;/sup&gt;</name></author><category term="neurips22" /><category term="TrustworthyML" /><summary type="html"><![CDATA[Overview]]></summary></entry><entry><title type="html">[CVPR22] Quarantine: Sparsity Can Uncover the Trojan Attack Trigger for Free</title><link href="https://changshengwang.me/blog/2022/trojan-lth-cvpr22/" rel="alternate" type="text/html" title="[CVPR22] Quarantine: Sparsity Can Uncover the Trojan Attack Trigger for Free" /><published>2022-06-21T21:00:00+00:00</published><updated>2022-06-21T21:00:00+00:00</updated><id>https://changshengwang.me/blog/2022/trojan-lth-cvpr22</id><content type="html" xml:base="https://changshengwang.me/blog/2022/trojan-lth-cvpr22/"><![CDATA[<h4 id="motivation">Motivation</h4>
 
 <p>As models usually learn “too well” during training - so much that make various types of attacks possible, backdoor attack (or Trojan Attack) has become a real-life threat to the AI model deployed in the real world. At the same time, extensive research work on model pruning has shown that the weights of an overparameterized model (e.g., DNN) can be pruned without hampering its generalization ability. Combining both lines of research, our story begins with the following question:</p>
 
@@ -717,13 +717,13 @@ How does the model sparsity relate to its train-time robustness against Trojan a
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/changsheng-wang/assets/img/posts/backdoor_cvpr22/overview-480.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/changsheng-wang/assets/img/posts/backdoor_cvpr22/overview-800.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/changsheng-wang/assets/img/posts/backdoor_cvpr22/overview-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/posts/backdoor_cvpr22/overview-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/posts/backdoor_cvpr22/overview-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/posts/backdoor_cvpr22/overview-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img src="/changsheng-wang/assets/img/posts/backdoor_cvpr22/overview.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/posts/backdoor_cvpr22/overview.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -761,13 +761,13 @@ How does the model sparsity relate to its train-time robustness against Trojan a
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/changsheng-wang/assets/img/posts/backdoor_cvpr22/pruning_dynamic-480.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/changsheng-wang/assets/img/posts/backdoor_cvpr22/pruning_dynamic-800.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/changsheng-wang/assets/img/posts/backdoor_cvpr22/pruning_dynamic-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/posts/backdoor_cvpr22/pruning_dynamic-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/posts/backdoor_cvpr22/pruning_dynamic-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/posts/backdoor_cvpr22/pruning_dynamic-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img src="/changsheng-wang/assets/img/posts/backdoor_cvpr22/pruning_dynamic.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/posts/backdoor_cvpr22/pruning_dynamic.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -789,13 +789,13 @@ How does the model sparsity relate to its train-time robustness against Trojan a
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/changsheng-wang/assets/img/posts/backdoor_cvpr22/trigger_l1_norm-480.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/changsheng-wang/assets/img/posts/backdoor_cvpr22/trigger_l1_norm-800.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/changsheng-wang/assets/img/posts/backdoor_cvpr22/trigger_l1_norm-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/posts/backdoor_cvpr22/trigger_l1_norm-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/posts/backdoor_cvpr22/trigger_l1_norm-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/posts/backdoor_cvpr22/trigger_l1_norm-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img src="/changsheng-wang/assets/img/posts/backdoor_cvpr22/trigger_l1_norm.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/posts/backdoor_cvpr22/trigger_l1_norm.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -817,13 +817,13 @@ How does the model sparsity relate to its train-time robustness against Trojan a
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/changsheng-wang/assets/img/posts/backdoor_cvpr22/recover_trigger_poster-480.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/changsheng-wang/assets/img/posts/backdoor_cvpr22/recover_trigger_poster-800.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/changsheng-wang/assets/img/posts/backdoor_cvpr22/recover_trigger_poster-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/posts/backdoor_cvpr22/recover_trigger_poster-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/posts/backdoor_cvpr22/recover_trigger_poster-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/posts/backdoor_cvpr22/recover_trigger_poster-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img src="/changsheng-wang/assets/img/posts/backdoor_cvpr22/recover_trigger_poster.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/posts/backdoor_cvpr22/recover_trigger_poster.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 

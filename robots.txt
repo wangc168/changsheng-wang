@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://changsheng-wang.github.io/changsheng-wang/sitemap.xml
+Sitemap: https://changshengwang.me/sitemap.xml
