@@ -1,0 +1,33 @@
+name: Deploy Jekyll with Plugins to GitHub Pages
+
+on:
+  push:
+    branches:
+      - master  # or 'main' based on your repo
+  workflow_dispatch:
+
+jobs:
+  github-pages:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.1  # or 3.0
+          bundler-cache: true
+
+      - name: Install dependencies
+        run: |
+          bundle install
+
+      - name: Build site with Jekyll
+        run: bundle exec jekyll build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
