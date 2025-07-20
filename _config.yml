@@ -2,11 +2,11 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Yihua Zhang # the website title (if blank, full name will be used instead)
-first_name: Yihua
+title: Changsheng Wang # the website title (if blank, full name will be used instead)
+first_name: Changsheng
 middle_name:
-last_name: Zhang
-email: zhan1908@msu.edu
+last_name: Wang
+email: wangc168@msu.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Don't waste your life. Don't waste it.
 footer_text: >
@@ -65,12 +65,12 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: normaluhr # your GitHub user name
+github_username: wangc168 # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: zyh2022 # your Twitter handle
-linkedin_username: zhangyihua # your LinkedIn user name
-scholar_userid: ui-pcWgAAAAJ # your Google Scholar ID
-wechat_id: normaluhr # your wechat id
+twitter_username: wcsa23187 # your Twitter handle
+linkedin_username:  # your LinkedIn user name
+scholar_userid: pFYLRCIAAAAJ # your Google Scholar ID
+wechat_id: wcsA23187 # your wechat id
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
@@ -219,8 +219,8 @@ display_tags: ['TrustworthyML', 'ScalableML'] # this tags will be dispalyed on t
 
 scholar:
 
-  last_name: Zhang
-  first_name: [Yihua]
+  last_name: Wang
+  first_name: [Changsheng]
 
   style: apa
   locale: en

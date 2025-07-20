@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: vanishing_me.jpg
+  image: myself.jpeg
   image_circular: false # crops the image to make it circular
   address: >
     <p>Room 3210 </p>
@@ -22,19 +22,12 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 
-Yihua Zhang (张逸骅) is a fourth-year Ph.D. student at [OPTML Group](https://www.optml-group.com/) at Michigan State University, under the supervision of [Prof. Sijia Liu](https://lsjxjtu.github.io/). His research centers on *trustworthy* and *scalable* machine learning (ML) algorithms for large language models (LLMs) and diffusion models (DMs), with a keen focus on bridging theoretical foundations and real-world applications. In recognition of his outstanding contributions, Yihua was honored with the [IBM PhD Fellowship 2024](https://research.ibm.com/university/awards/fellowships-awardees.html), the [CPAL 2025 Risiting Star Award](https://cpal.cc/rising_stars_guidelines/), and the prestigious [MLCommons Rising Star Award in 2024](https://mlcommons.org/2024/06/2024-mlc-rising-stars/). Yihua has gained valuable industry experience through internships at leading technology companies such as [Meta AI](https://ai.meta.com/), [Amazon AWS AI Lab](https://aws.amazon.com/ai/), and [Cisco Research](https://research.cisco.com/). Yihua’s work is driven by the need to develop efficient, scalable, and robust ML algorithms, with a commitment to addressing modern challenges in these domains.
+Changsheng Wang (王昌盛) is a first-year Ph.D. student in Computer Science at Michigan State University, working in the [OPTML Group](https://www.optml-group.com/) under the supervision of [Prof. Sijia Liu](https://lsjxjtu.github.io/). His research centers on trustworthy AI and AI safety, with a focus on large language models (LLMs). He is particularly interested in building machine learning systems that are robust, efficient, and secure in adversarial or real-world settings. Before joining MSU, Changsheng received his B.S. in Data Science and Big Data Technology from the [University of Science and Technology of China (USTC)](https://en.ustc.edu.cn/), where he was advised by [Prof. Xiangnan He](https://hexiangnan.github.io/). He has completed research internships at [Intel](https://www.intel.com/content/www/us/en/homepage.html), and collaborated with [IBM Research](https://research.ibm.com/) on trustworthy and safe AI.
 
-**Research Keywords**: Machine Unlearning, Jailbreak Attack, Adversarial Training, Fairness, Parameter-Efficient Fine-Tuning, Memory-Efficient Fine-Tuning, Mixture-of-Experts, Model Sparsity, Large Language Model, Diffusion Model, Bi-Level Optimization, Zeroth-Order Optimization.
+**Research Keywords**: Machine Unlearning, AI Safety, Adversarial Training, Fine-Tuning Efficiency, Watermarking, LLM Robustness, Diffusion Models, Recommender System Security, Optimization.
 
 
-:heavy_check_mark: **Theme 1: Trustworthy Foundation Models: Robustness, Fairness, and Unlearning**: Yihua explores how to enhance the trustworthiness of foundation models, focusing on robustness against adversarial attacks, fairness in decision-making, and the emerging area of machine unlearning to ensure data privacy and compliance with deletion requests.
+**Looking for Collaboration!**
 
-:heavy_check_mark: **Theme 2: Scalable Foundation Models: Efficient Models, Data, and Algorithms**: In this theme, Yihua's work revolves around designing models that are not only powerful but also computationally efficient. His research includes advancements in model sparsification, memory-efficient fine-tuning techniques, and optimizing data usage for large-scale models.
-
-:heavy_check_mark: **Theme 3: Optimization in Modern ML: Bi-Level and Zeroth-Order Optimization**
-This research line focuses on the theoretical underpinnings of scalable machine learning algorithms, addressing real-world constraints through bi-level optimization and zeroth-order optimization.
-
-**Collaboration Opportunities**
-
-I am always open to collaborations with researchers, as well as undergraduate and graduate students seeking Ph.D. positions. While my primary research focuses on trustworthy and scalable ML algorithms for LLMs and DMs, I am also interested in exploring a wide range of topics beyond these areas. If you have exciting research ideas or are looking for opportunities to conduct research under professional guidance, feel free to reach out to me. Please refer to my [collaboration statement](./collaboration) for more details. You are also welcome to befriend me on [Wechat](./assets/img/Wechat.jpg) or connect me through [LinkedIn](https://www.linkedin.com/in/zhangyihua/).
+I am currently seeking a 2026 Summer Internship position in industrial or academic research labs related to AI safety, LLM robustness, or foundation model alignment. Feel free to reach out, befriend me on [Wechat](./assets/img/wechat.jpeg), or connect with me on [LinkedIn](www.linkedin.com/in/changsheng-wang-342332232).
 
