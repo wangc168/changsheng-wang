@@ -1,6 +1,55 @@
 ---
 ---
 
+
+
+@InProceedings{wang2025reasoning,
+  abbr={arxiv'25},
+  selected={true},
+  bibtex_show={true},
+  preview={code_llm.png},
+  html={https://github.com/wangc168/MEMORIZATION_BARRIERS/blob/main/Memorization_Barriers_CWang_arXiv.pdf},
+  title =    {Breaking Memorization Barriers in LLM Code Fine-Tuning via Information Bottleneck for Improved Generalization},
+  author =       {Wang, Changsheng and Xin, Chen and Liu, Sijia and Ke, Ding },
+  booktitle={arxiv'25},
+    year={2025},
+  abstract =   {Adapting pretrained large language models (LLMs) to code domains via supervised fine-tuning (FT) has been commonly used for code generation. However,  we identify a previously underappreciated failure mode, the \emph{memorization barrier}, where strong memorization of downstream code data in the base model could trap optimization and prevent the standard FT from effectively acquiring new, generalizable code knowledge. To overcome this barrier, we propose the \emph{information bottleneck (IB)-guided fine-tuning}, termed IB-FT, which applies an IB penalty on hidden representations of the code data to compress spurious, memorized features while preserving task-relevant information. Extensive experiments on two code benchmarks (OriGen and Evol-CodeAlpaca-V1) show that IB-FT substantially alleviates the memorization barrier, improves top-1 performance (Pass@$1$), and yields far more stable gains under the stricter multi-sample metric \text{Pass@}$k^{(m)}$ (a problem counts as solved only if at least $m$ of $k$ samples pass unit tests) compared with conventional FT.}
+}
+
+
+
+
+@InProceedings{wang2025reasoning,
+  abbr={CCS AISec'25},
+  selected={true},
+  bibtex_show={true},
+  preview={aisec.png},
+  html={https://arxiv.org/pdf/2510.09007},
+  poster={../posters/watermark_workshop_aisec.pdf},
+  title =    {LLM Unlearning on Noisy Forget Sets: A Study of Incomplete, Rewritten, and Watermarked Data},
+  author =       {Wang, Changsheng and Zhang, Yihua and Wei, Dennis and Jia, Jinghan and Chen, Pin-Yu and Liu, Sijia},
+  booktitle={18 th ACM Workshop on Artificial Intelligence and Security},
+    year={2025},
+  abstract =   {Large language models (LLMs) exhibit remarkable generative capabilities but raise ethical and security concerns by memorizing sensitive data, reinforcing biases, and producing harmful content. These risks have spurred interest in LLM unlearning, the task of removing knowledge associated with undesirable data from pre-trained models. However, most existing methods assume access to clean, well-defined forget data samples, whereas real-world forget data could often be low-quality, synthetically rewritten, or watermarked, casting doubt on the reliability of unlearning. This work presents the first study of unlearning under perturbed or low-fidelity forget data, referred to as noisy forget sets. By systematically benchmarking state-of-the-art LLM unlearning methods, RMU and NPO, on such noisy forget sets, we find that unlearning remains surprisingly robust to perturbations, provided that core semantic signals are preserved. To explain this robustness, we propose a saliency-based interpretation: key semantic components that drive forgetting remain consistently influential despite substantial variation in surface form. This suggests that unlearning algorithms are primarily guided by deep semantic cues rather than shallow lexical patterns.}
+}
+
+
+@InProceedings{wang2025reasoning,
+  abbr={EMNLP'25},
+  selected={true},
+  bibtex_show={true},
+  preview={R2MU_img.png},
+  html={https://arxiv.org/abs/2506.12963},
+  code={},
+  poster={../posters/R2MU.pdf},
+  title =    {Reasoning Model Unlearning: Forgetting Traces, Not Just Answers, While Preserving Reasoning Skills},
+  author =       {Wang*, Changsheng and Fan*, Chongyu and Zhang, Yihua and Jia, Jinghan and Wei, Dennis and Ram, Parikshit and Baracaldo, Nathalie and Liu, Sijia},
+  booktitle={The 2025 Conference on Empirical Methods in Natural Language Processing},
+  year={2025},
+  abstract =   {Recent advances in large reasoning models (LRMs) have enabled strong chain-of-thought (CoT) generation through test-time computation. While these multi-step reasoning capabilities represent a major milestone in language model performance, they also introduce new safety risks. In this work, we present the first systematic study to revisit the problem of machine unlearning in the context of LRMs. Machine unlearning refers to the process of removing the influence of sensitive, harmful, or undesired data or knowledge from a trained model without full retraining. We show that conventional unlearning algorithms, originally designed for non-reasoning models, are inadequate for LRMs. In particular, even when final answers are successfully erased, sensitive information often persists within the intermediate reasoning steps, i.e., CoT trajectories. To address this challenge, we extend conventional unlearning and propose Reasoning-aware Representation Misdirection for Unlearning (R2MU), a novel method that effectively suppresses sensitive reasoning traces and prevents the generation of associated final answers, while preserving the model's reasoning ability. Our experiments demonstrate that R2MU significantly reduces sensitive information leakage within reasoning traces and achieves strong performance across both safety and reasoning benchmarks, evaluated on state-of-the-art models such as DeepSeek-R1-Distill-LLaMA-8B and DeepSeek-R1-Distill-Qwen-14B.}
+}
+
+
 @InProceedings{wang2025edit,
   abbr={COLM'25},
   selected={true},
@@ -30,20 +79,6 @@
   abstract =   {Machine unlearning offers a promising solution to privacy and safety concerns in large language models (LLMs) by selectively removing targeted knowledge while preserving utility. However, current methods are highly sensitive to downstream fine-tuning, which can quickly recover forgotten information-even from unrelated tasks. To address this, we introduce invariance into unlearning for the first time, inspired by invariant risk minimization (IRM). Building on this principle, we propose invariant LLM unlearning (ILU), a regularization-based framework that enhances robustness. Notably, ILU generalizes well to diverse fine-tuning tasks, even when trained using a single dataset. A task vector analysis is also provided to further elucidate the rationale behind ILU's effectiveness. Extensive experiments on the WMDP and MUSE benchmark, reveal that ILU significantly outperforms state-of-the-art unlearning methods, including negative preference optimization (NPO) and representation misdirection for unlearning (RMU). Notably, ILU achieves superior unlearning robustness across diverse downstream fine-tuning scenarios (e.g., math, paraphrase detection, and sentiment analysis) while preserving the fine-tuning performance.}
 }
 
-@InProceedings{wang2025reasoning,
-  abbr={arXiv'25},
-  selected={true},
-  bibtex_show={true},
-  preview={R2MU_img.png},
-  html={https://arxiv.org/abs/2506.12963},
-  code={},
-  poster={../posters/R2MU.pdf},
-  title =    {Reasoning Model Unlearning: Forgetting Traces, Not Just Answers, While Preserving Reasoning Skills},
-  author =       {Wang*, Changsheng and Fan*, Chongyu and Zhang, Yihua and Jia, Jinghan and Wei, Dennis and Ram, Parikshit and Baracaldo, Nathalie and Liu, Sijia},
-  booktitle={arXiv preprint arXiv:2506.12963},
-  year={2025},
-  abstract =   {Recent advances in large reasoning models (LRMs) have enabled strong chain-of-thought (CoT) generation through test-time computation. While these multi-step reasoning capabilities represent a major milestone in language model performance, they also introduce new safety risks. In this work, we present the first systematic study to revisit the problem of machine unlearning in the context of LRMs. Machine unlearning refers to the process of removing the influence of sensitive, harmful, or undesired data or knowledge from a trained model without full retraining. We show that conventional unlearning algorithms, originally designed for non-reasoning models, are inadequate for LRMs. In particular, even when final answers are successfully erased, sensitive information often persists within the intermediate reasoning steps, i.e., CoT trajectories. To address this challenge, we extend conventional unlearning and propose Reasoning-aware Representation Misdirection for Unlearning (R2MU), a novel method that effectively suppresses sensitive reasoning traces and prevents the generation of associated final answers, while preserving the model's reasoning ability. Our experiments demonstrate that R2MU significantly reduces sensitive information leakage within reasoning traces and achieves strong performance across both safety and reasoning benchmarks, evaluated on state-of-the-art models such as DeepSeek-R1-Distill-LLaMA-8B and DeepSeek-R1-Distill-Qwen-14B.}
-}
 
 
 @InProceedings{wang2023uplift,

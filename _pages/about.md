@@ -29,5 +29,5 @@ Changsheng Wang (王昌盛) is a first-year Ph.D. student in Computer Science at
 
 **Looking for Collaboration!**
 
-I am currently seeking a 2026 Summer Internship position in industrial or academic research labs related to AI safety, LLM robustness, or foundation model alignment. Feel free to reach out, befriend me on [Wechat](./assets/img/wechat.jpeg), or connect with me on [LinkedIn](www.linkedin.com/in/changsheng-wang-342332232).
+I am currently seeking a 2026 Summer Internship position in industrial or academic research labs related to AI safety, LLM robustness, or foundation model alignment. Feel free to reach out, befriend me on [Wechat](./assets/img/wechat.jpeg), or connect with me on [LinkedIn](https://www.linkedin.com/in/changsheng-wang-342332232/).
 
